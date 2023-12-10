@@ -1,4 +1,4 @@
-
+package org.example;
 public class InterpretBMI {
     public static void calculateBMI(double bmi) {
         System.out.print("Interpretacja BMI: ");
