@@ -1,5 +1,4 @@
 
-
 import java.util.Scanner;
 public class KalkulatorBMI {
     public static void main (String[] args) {
