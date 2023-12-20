@@ -1,3 +1,4 @@
 rootProject.name = 'smallJavaProjects'
 include 'KalkulatorBMI'
+include 'BookManagement'
 
