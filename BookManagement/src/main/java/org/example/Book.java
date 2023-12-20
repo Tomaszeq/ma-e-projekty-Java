@@ -1,6 +1,7 @@
 package org.example;
 
 import java.io.Serializable;
+import java.util.Objects;
 import java.util.StringJoiner;
 
 public class Book implements Serializable {
@@ -30,5 +31,14 @@ public class Book implements Serializable {
                 .add("author='" + author + "'")
                 .add("year=" + year)
                 .toString();
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Book book = (Book) obj;
+        return year == book.year &&
+                Objects.equals(title, book.title) &&
+                Objects.equals(author, book.author);
     }
 }

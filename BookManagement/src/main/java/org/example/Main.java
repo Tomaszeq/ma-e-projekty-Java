@@ -1,5 +1,6 @@
 package org.example;
 
+import java.io.InputStream;
 import java.util.List;
 
 public class Main {
@@ -24,7 +25,7 @@ public class Main {
         }
 
         //save to file
-        libraryManager.saveBooksToFile();
+        libraryManager.saveBooksToFile(System.out);
 
         //load from file
         libraryManager.loadBooksFromFile();
