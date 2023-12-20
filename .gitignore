@@ -1,25 +1,21 @@
-.gradle
-build/
-!gradle/wrapper/gradle-wrapper.jar
-**/src/main/**/build/
-**/src/test/**/build/
-.gradle
-/build/
-**/out
-**/build
-.idea
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
-out/
-**/src/main/**/out/
-**/src/test/**/out/
+# .gitignore
+
+# Ignoruj pliki wygenerowane przez IDE
 .idea/
-*.class
-ksiazka
-library.ser
-/out/
+
+# Ignoruj pliki kompilacji i katalogi build
+build/
+target/
+
+# Ignoruj pliki wygenerowane przez systemy operacyjne
+.DS_Store
+Thumbs.db
+
+# Ignoruj pliki wygenerowane przez narzędzia budujące
+.gradle/
+out/
+bin/
+
+# Ignoruj pliki wygenerowane przez systemy operacyjne Mac
+*.swp
+*~
