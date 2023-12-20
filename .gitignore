@@ -20,7 +20,6 @@ out/
 **/src/test/**/out/
 .idea/
 *.class
-../../../
-../../../../ksiazka
-../../../../library.ser
+ksiazka
+library.ser
 /out/
